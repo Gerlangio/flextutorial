@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas Transparentes 2</title>
+</head>
+<style>
+    div {
+      background: rgb(0, 128, 0);
+    }
+    
+    div.primeiro {
+      background: rgba(0, 128, 0, 0.1);
+    }
+    
+    div.segundo {
+      background: rgba(0, 128, 0, 0.3);
+    }
+    
+    div.terceiro {
+      background: rgba(0, 128, 0, 0.6);
+    }
+    </style>
+<body>
+    <h1>Caixas Transparentes 2</h1>
+
+<p>Resultado com opacidade:</p>
+
+<div style="opacity:0.1;">
+  <h1>10% opacidade</h1>
+</div>
+
+<div style="opacity:0.3;">
+  <h1>30% opacidade</h1>
+</div>
+
+<div style="opacity:0.6;">
+  <h1>60% opacidade</h1>
+</div>
+
+<div>
+  <h1>opacidade 1</h1>
+</div>
+
+<p>Resultado com rgba():</p>
+
+<div class="primeiro">
+  <h1>10% opacidade</h1>
+</div>
+
+<div class="segundo">
+  <h1>30% opacidade</h1>
+</div>
+
+<div class="terceiro">
+  <h1>60% opacidade</h1>
+</div>
+
+<div>
+  <h1>predefinição</h1>
+</div>
+
+<p>Observe como o texto fica transparente, bem como a cor de fundo ao usar a propriedade opacidade.</p>
+</body>
+</html>
